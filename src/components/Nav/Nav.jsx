@@ -38,7 +38,7 @@ const Nav = () => {
     // </div>
 
     <div>
-      <div className="bg-indigo-500 px-8">
+      <div className="bg-indigo-500">
         <div onClick={() => setOpenMenu(!openMenu)}>
           {openMenu ? (
             <IoMdClose className="text-xl cursor-pointer md:hidden" />
@@ -47,9 +47,9 @@ const Nav = () => {
           )}
         </div>
 
-        <div className={` sm:flex sm:py-4 sm:px-6 sm:w-full sm:rounded-none gap-6 
-            ${openMenu ? 'top-16' : '-top-64'}
-           duration-1000 absolute top-10 bg-yellow-300 text-black px-12 py-6 space-y-3 rounded-xl sm:space-y-0`}>
+        <div className={` sm:flex sm:py-4 sm:w-full sm:rounded-none gap-6 
+            ${openMenu ? 'left-4' : '-left-64'}
+           duration-1000 sm:static absolute bg-yellow-300 text-black px-12 py-6 space-y-3 rounded-xl sm:space-y-0`}>
           {navLinks.map((link) => (
             <Link link={link}></Link>
           ))}
