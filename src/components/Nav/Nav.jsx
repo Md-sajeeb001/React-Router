@@ -51,7 +51,7 @@ const Nav = () => {
             ${openMenu ? 'left-4' : '-left-64'}
            duration-1000 sm:static absolute bg-yellow-300 text-black px-12 py-6 space-y-3 rounded-xl sm:space-y-0`}>
           {navLinks.map((link) => (
-            <Link link={link}></Link>
+            <Link key={link.id} link={link}></Link>
           ))}
         </div>
       </div>

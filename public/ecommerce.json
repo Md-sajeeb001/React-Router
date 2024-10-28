@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "price": 120.99,
+        "category": "Electronics",
+        "features": ["Over-ear design", "Noise cancellation", "40-hour battery"],
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Smart Fitness Watch",
+        "price": 85.49,
+        "category": "Wearables",
+        "features": ["Heart-rate monitor", "Sleep tracking", "Water-resistant"],
+        "rating": 4.2
+    },
+    {
+        "id": 3,
+        "name": "4K UHD Smart TV",
+        "price": 599.99,
+        "category": "Home Appliances",
+        "features": ["55-inch display", "HDR10 support", "Built-in apps"],
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "name": "Gaming Laptop",
+        "price": 1499.00,
+        "category": "Computers",
+        "features": ["16GB RAM", "1TB SSD", "RTX 3060 GPU"],
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "name": "Running Shoes",
+        "price": 70.99,
+        "category": "Footwear",
+        "features": ["Lightweight", "Breathable mesh", "Non-slip sole"],
+        "rating": 4.3
+    },
+    {
+        "id": 6,
+        "name": "Electric Toothbrush",
+        "price": 45.75,
+        "category": "Health & Wellness",
+        "features": ["Rechargeable battery", "Multiple brushing modes", "Soft bristles"],
+        "rating": 4.1
+    },
+    {
+        "id": 7,
+        "name": "Portable Power Bank",
+        "price": 29.99,
+        "category": "Accessories",
+        "features": ["10,000mAh capacity", "Fast charging", "Compact design"],
+        "rating": 4.6
+    },
+    {
+        "id": 8,
+        "name": "Noise Cancelling Earbuds",
+        "price": 129.99,
+        "category": "Electronics",
+        "features": ["Wireless", "Active noise cancellation", "20-hour battery life"],
+        "rating": 4.4
+    },
+    {
+        "id": 9,
+        "name": "Adjustable Office Chair",
+        "price": 199.99,
+        "category": "Furniture",
+        "features": ["Ergonomic design", "Lumbar support", "Swivel base"],
+        "rating": 4.5
+    },
+    {
+        "id": 10,
+        "name": "Stainless Steel Water Bottle",
+        "price": 25.49,
+        "category": "Home & Kitchen",
+        "features": ["Keeps drinks cold for 24 hours", "BPA-free", "500ml capacity"],
+        "rating": 4.3
+    }
+]
